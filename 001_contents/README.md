@@ -12,7 +12,7 @@ Password: testPassword
 注: 
 
 ```bash
-echo -n "classmethod:0912cm" | base64
+echo -n "testUser:testPassword" | base64
 ```
 
 ## 補足: What is Basic auth
