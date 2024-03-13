@@ -162,17 +162,3 @@ Resources:
       AliasTarget:
         DNSName: !GetAtt CloudFrontDistribution.DomainName
         HostedZoneId: Z2FDTNDATAQYW2 # this is AWS-specific constant value
-
-Outputs:
-  CloudFrontDistribution:
-    Value: !Ref CloudFrontDistribution
-    Description: "CloudFront Distribution ID"
-    Export:
-      Name:
-        !Sub "cloudfront-${CustomParameter001}"
-  S3Bucket:
-    Value: !Ref S3Bucket
-    Description: "contents s3 bucket name"
-    Export:
-      Name:
-        !Sub "s3-${CustomParameter001}"
