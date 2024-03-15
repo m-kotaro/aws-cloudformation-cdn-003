@@ -16,6 +16,3 @@
 
 [CloudFront FunctionsでBasic認証のパスワードをかける](https://dev.classmethod.jp/articles/apply-basic-authentication-password-with-cloudfront-functions/)
 
-## 免責
-
-利用転載は自由ですが掲載内容で生じた損害に対する一切の責任を負いません。
